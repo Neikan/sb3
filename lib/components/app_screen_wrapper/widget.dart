@@ -1,5 +1,7 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
 
+// Project imports:
 import 'package:sb3/components/app_header/widget.dart';
 
 class AppScreenWrapper extends StatelessWidget {

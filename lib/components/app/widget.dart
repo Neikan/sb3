@@ -1,5 +1,7 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
 
+// Project imports:
 import 'package:sb3/screens/screen_svg.dart';
 
 class App extends StatelessWidget {
