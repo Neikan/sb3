@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
-import 'package:sb3/utils/common.dart';
+import 'package:sb3/components/app_header/widget.dart';
 
 class AppScreenWrapper extends StatelessWidget {
   final Widget widget;
@@ -13,19 +12,11 @@ class AppScreenWrapper extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final brightness = getStatusBarBrightness();
-
     return Scaffold(
+      appBar: const AppHeader(),
       backgroundColor: Colors.white,
-      body: AnnotatedRegion<SystemUiOverlayStyle>(
-        value: SystemUiOverlayStyle(
-          statusBarColor: Colors.white,
-          statusBarIconBrightness: brightness,
-          statusBarBrightness: brightness,
-        ),
-        child: SafeArea(
-          child: widget,
-        ),
+      body: SafeArea(
+        child: widget,
       ),
     );
   }
