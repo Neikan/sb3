@@ -1,8 +1,9 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+// Project imports:
 import 'package:sb3/components/app_avatar/widget.dart';
-
 import 'package:sb3/utils/common.dart';
 
 class AppHeader extends StatelessWidget implements PreferredSizeWidget {

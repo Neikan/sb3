@@ -1,8 +1,11 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:carousel_slider/carousel_slider.dart';
 
+// Project imports:
 import 'package:sb3/components/app_screen_wrapper/widget.dart';
-
 import 'package:sb3/components/app_svg_image/widget.dart';
 
 class ScreenSvg extends StatelessWidget {

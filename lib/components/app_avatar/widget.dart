@@ -1,4 +1,7 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:transparent_image/transparent_image.dart';
 
 class AppAvatar extends StatelessWidget {
