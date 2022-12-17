@@ -24,6 +24,8 @@ class ScreenSvg extends StatelessWidget {
             AppSvgImage(
               name: 'dart',
               size: 50,
+              bgSize: 100,
+              bgColor: Colors.black,
             ),
           ],
           options: CarouselOptions(
