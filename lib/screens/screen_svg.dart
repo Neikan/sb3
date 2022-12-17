@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:carousel_slider/carousel_slider.dart';
 
 import 'package:sb3/components/app_screen_wrapper/widget.dart';
 
@@ -9,11 +10,22 @@ class ScreenSvg extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AppScreenWrapper(
+    return AppScreenWrapper(
       widget: Center(
-        child: AppSvgImage(
-          name: 'flutter',
-          size: 100,
+        child: CarouselSlider(
+          items: const [
+            AppSvgImage(
+              name: 'flutter',
+              size: 100,
+            ),
+            AppSvgImage(
+              name: 'dart',
+              size: 50,
+            ),
+          ],
+          options: CarouselOptions(
+            height: MediaQuery.of(context).size.height,
+          ),
         ),
       ),
     );

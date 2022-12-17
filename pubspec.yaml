@@ -11,9 +11,12 @@ dependencies:
   flutter:
     sdk: flutter
 
+  carousel_slider:
+    git: https://github.com/serenader2014/flutter_carousel_slider
   cupertino_icons: ^1.0.2
   flutter_svg: ^1.1.6
   transparent_image: ^2.0.0
+
 
 dev_dependencies:
   flutter_test:
@@ -25,5 +28,6 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/images/dart.svg
     - assets/images/flutter.svg
     - assets/images/skeleton_avatar.jpg
