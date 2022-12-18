@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:sb3/components/app_header/widget.dart';
+import 'package:sb3/components/app_header.dart';
 
 class AppScreenWrapper extends StatelessWidget {
   final Widget widget;

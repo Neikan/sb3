@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
 // Project imports:
-import 'package:sb3/components/app_screen_wrapper/widget.dart';
-import 'package:sb3/components/app_svg_image/widget.dart';
+import 'package:sb3/components/app_screen_wrapper.dart';
+import 'package:sb3/components/app_svg_image.dart';
 
 class ScreenSvg extends StatelessWidget {
   const ScreenSvg({Key? key}) : super(key: key);
